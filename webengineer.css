@@ -1,0 +1,66 @@
+.menu-name {
+  padding-left: 100px;
+  margin-top: 30px;
+}
+.menu-name h2 {
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+.skills h3{
+  font-weight: lighter;
+  font-size: 25px;
+  border-bottom: 2px solid rgb(216, 213, 213);
+  width: 10%;
+  margin-left: 20px;
+}
+
+.skills ul li{
+  list-style: none;
+  margin: 10px;
+}
+
+.works h3{
+  font-weight: lighter;
+  font-size: 25px;
+  border-bottom: 2px solid rgb(216, 213, 213);
+  width: 10%;
+  margin-left: 20px;
+}
+
+
+/* 以下スライダー---------- */
+.works-slider {
+  margin-left: 50px;
+  margin-bottom: 40px;
+  width: 600px;
+	height: 300px;
+  overflow: hidden;
+}
+
+.slide-item {
+	width: 600px;
+	height: 300px;
+	float: left;
+	position: relative;
+}
+
+.slider-wrapper {
+	width: 800%;
+	position: relative;
+	left: 0;
+	will-change: transform;
+	animation: slider 40s infinite;
+}
+
+@keyframes slider {
+  0% { transform: translateX(0); }
+  12.5% { transform: translateX(-600px); }
+  25% { transform: translateX(-1200px); }
+  37.5% { transform: translateX(-1800px); }
+  50% { transform: translateX(-2400px); }
+  62.5% { transform: translateX(-3000px); }
+  75% { transform: translateX(-3600px); }
+  87.5% { transform: translateX(-4200px); }
+  100% { transform: translateX(0); }
+}
