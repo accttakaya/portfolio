@@ -68,12 +68,6 @@ header{
   color: black;
 }
 
-.contents {
-  /* 子要素に合わせて大きさを変動させるためにheightを削除 */
-  width: 100%;
-  /* background-color: skyblue; */
-  margin: 0 auto;
-}
 
 .left-content {
   height: 400px;

@@ -8,8 +8,6 @@ $(document).ready(function () {
       dataType: "xml",
       statusCode: {
         0: function () {
-          // $(".end-message").slideDown();
-          // $(".submit-btn").fadeOut();
           window.location.href = "thanks.html";
         },
         200: function () {
