@@ -5,10 +5,11 @@ body {
   margin: 0 auto;
 }
 
-h1,h2,h3,h4,h5,h6,p{
-  padding: 10px 0;
-  margin: 0;
-  
+.wrapper{
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 120px;
+  box-sizing: border-box;
 }
 
 header{
@@ -16,14 +17,16 @@ header{
 }
 
 .heading{
-  padding-top: 100px;
+  padding-top: 70px;
   padding-left: 100px;
   display: flex;
   justify-content: space-between;
 }
 
 .title {
-  letter-spacing: 10px;
+  letter-spacing: 12px;
+  font-weight: bold;
+  font-size: 40px;
 }
 
 .title a {
@@ -49,9 +52,8 @@ header{
 .navbar{
   padding: 15px;
   width: 40%;
-  float: right;
-  margin-right: 100px;
-  background-color: aquamarine;
+  margin: 0 100px 0 auto;
+  text-align: right;
 }
 
 .menu {
@@ -63,6 +65,7 @@ header{
 .menu-btn a{
   padding-right:10px;
   text-decoration: none;
+  color: black;
 }
 
 
@@ -102,9 +105,14 @@ table {
 }
 
 footer{
-  /* background-color: pink;
-  height: 50px; */
   text-align: center;
+  width: 100%;
+  background-color: rgb(211, 212, 214);
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
 }
 
 .clearfix::after{
