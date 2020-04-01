@@ -28,39 +28,60 @@
   margin-left: 20px;
 }
 
+/* modal---------- */
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  display: none;
+}
 
-/* 以下スライダー---------- */
+.modal {
+  position: absolute;
+  top: 5%;
+  left: 7%;
+  right: 7%;
+  bottom: 5%;
+  background-color: #e6ecf0;
+  margin: 0 auto;
+  padding: 2% 7% 0 7%;
+  border-radius: 10px;
+}
+
 .works-slider {
   margin-left: 50px;
-  margin-bottom: 40px;
   width: 600px;
-	height: 300px;
   overflow: hidden;
 }
 
+/* 以下スライダー---------- */
 .slide-item {
-	width: 600px;
-	height: 300px;
+  width: 12.5%;
+	height: 100%;
 	float: left;
-	position: relative;
+  position: relative;
 }
 
 .slider-wrapper {
-	width: 800%;
+	width: 1000%;
 	position: relative;
 	left: 0;
 	will-change: transform;
-	animation: slider 40s infinite;
+  animation: slider 40s infinite;
 }
 
 @keyframes slider {
-  0% { transform: translateX(0); }
-  12.5% { transform: translateX(-600px); }
-  25% { transform: translateX(-1200px); }
-  37.5% { transform: translateX(-1800px); }
-  50% { transform: translateX(-2400px); }
-  62.5% { transform: translateX(-3000px); }
-  75% { transform: translateX(-3600px); }
-  87.5% { transform: translateX(-4200px); }
-  100% { transform: translateX(0); }
+  0% { transform: translateX(-0.5%); }
+  12.5% { transform: translateX(-13.25%); }
+  25% { transform: translateX(-25.75%); }
+  37.5% { transform: translateX(-38.25%); }
+  50% { transform: translateX(-50.75%); }
+  62.5% { transform: translateX(-63.25%); }
+  75% { transform: translateX(-75.75%); }
+  87.5% { transform: translateX(-88.25%); }
+  100% { transform: translateX(-0.5%); }
 }
