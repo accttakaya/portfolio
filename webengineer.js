@@ -7,4 +7,9 @@ $(function () {
     $('#furima-modal-wrapper').fadeIn();
   });
 
+  $('.close-btn').click(function() {
+    $('#simtax-modal-wrapper').fadeOut();
+    $('#furima-modal-wrapper').fadeOut();
+  })
+
 });
