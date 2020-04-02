@@ -55,6 +55,40 @@ header{
   margin: 0 100px 0 auto;
   text-align: right;
 }
+/* -------------- */
+.navbar ul {
+  font-size: 0;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 4px;
+	list-style: none;
+	text-align: center;
+}
+
+.navbar li {
+	font-size: 15px;
+	margin: 0 8px;
+	display: inline-block;
+}
+
+.navbar li a {
+	text-decoration: none;
+	padding-bottom: 3px;
+	color: #000;
+	display: block;
+}
+.navbar li a:after {
+	content: '';
+	width: 0;
+	transition: all 0.3s ease;
+	border-bottom: 3px solid #000;
+	display: block;
+}
+.navbar li a:hover:after {
+	width: 100%;
+	border-bottom: 3px solid #000;
+}
+/* --------------------- */
 
 .menu {
   list-style: none;
@@ -66,8 +100,9 @@ header{
   padding-right:10px;
   text-decoration: none;
   color: black;
+  display: inline-block;
+  padding: 10px;
 }
-
 
 .left-content {
   height: 400px;
