@@ -104,30 +104,27 @@ header{
   padding: 10px;
 }
 
-.left-content {
-  height: 400px;
-  width: 55%;
-  background-color: #ffffff;
-  float: left;
-  padding: 10px;
-  margin-right: 2%;
+.top-page-contents {
+  position: relative;
 }
 
-.left-content h2 {
-  font-family: fantasy;
-}
-
-table {
-  border: 4px inset;
+.impact-wrapper {
   width: 100%;
 }
 
-.right-content {
-   height: 400px;
-   width: 35%;
-   background-color: #f9f9f9;
-   float: left;
-   padding: 10px;
+.impact-back-web {
+  font-size: 40px;
+  color: antiquewhite;
+  margin-left: 15%;
+  display: none;
+}
+
+.impact-back-acct {
+  font-size: 40px;
+  color: antiquewhite;
+  text-align: right;
+  margin-right: 15%;
+  display: none;
 }
 
 footer{
@@ -139,38 +136,4 @@ footer{
   padding: 10px 0;
   position: absolute;
   bottom: 0;
-}
-
-.clearfix::after{
-  content: "";
-  clear: both;
-  display: block;
-}
-
-.heading-sentence{
-  font-size: 18px;
-  /* background-color: yellow; */
-  padding-top: 30px;
-}
-
-
-.kochira{
-  /* background-color: blue; */
-}
-
-
-td{
-  margin: 0;
-  padding-left: 10px;
-  line-height: 30px;
-}
-
-.stylist-image{
-  height: 100px;
-  width: 100px;
-}
-
-.stylist-name{
-  font-size: 16px;
-  text-align: center;
 }
