@@ -41,11 +41,15 @@ header{
   justify-content: space-around;
 }
 
+.sns li {
+  margin-right: 10px;
+  height: 36px;
+  line-height: 45px;
+}
+
 .twitter-follow-button{
   padding: 8px 0;
   background-color: #1b95e0;
-  margin-right: 10px;
-  height: 36px;
   border-radius: 3px;
 }
 
