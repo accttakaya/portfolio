@@ -2,7 +2,7 @@ $(function () {
   $('#form').submit(function (event) {
     var formData = $('#form').serialize();
     $.ajax({
-      url: "https://docs.google.com/forms/u/2/d/e/1FAIpQLSd_abLT2-Cal_fuz7efyNoY9C8jCxOFZwHQpBI1SYF815K8_w/formResponse",
+      url: "https://docs.google.com/forms/u/1/d/e/1FAIpQLSfMIjFs-hecQP2-onzvFddh36qInzxPN53sUwNmOv2PjCjQxQ/formResponse",
       data: formData,
       type: "POST",
       dataType: "xml",
